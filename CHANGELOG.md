@@ -43,3 +43,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Modify Access logging bucket object ownership to Bucket owner preferred
 - Add SQS-managed encryption to SQS queue in the solution
 - Add new constant for duplicated IAM message string
+
+## [1.2.2] - 2023-10-23
+
+- Upgrade ``avro`` library to version 1.11.3 to fix vulnerability reported by Dependabot
+- Upgrade ``urllib3`` to version 1.26.18 to solve the security vulnerabilities
